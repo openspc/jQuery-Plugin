@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample</title>
+    <style>
+      #grid-content {
+        border: 1px solid gray;
+      }
+      #grid-content div {
+        width: 150px;
+        border: 2px solid cyan;
+        background-color: black;
+        color: white;
+        padding : 4px;
+        margin: 2px;
+      }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jquery.vgrid.min.js"></script>
+    <script src="js/sample.js"></script>
+  </head>
+  <body>
+    <h1>可変グリッドレイアウト</h1>
+    <div id="grid-content">
+      <div>
+        <h2>No. 1</h2>
+        <p>ブロック　01</p>
+      </div>
+      <div>
+        <h2>No. 2</h2>
+        <p>ブロック　02</p>
+        <p>ここはブロック番号2です。自動的に親要素のサイズに合わせて可変レイアウトが行われます。</p>
+      </div>
+      <div>
+        <h2>No. 3</h2>
+          <p>ブロック　03</p>
+          <p>ここはブロック番号2です。自動的に親要素のサイズに合わせて可変レイアウトが行われます。レイアウトは文章など要素のコンテンツに応じて自動的に調整されます。</p>
+      </div>
+      <div>
+        <h2>No. 4</h2>
+        <p>ブロック　04</p>
+      </div>
+      <div>
+        <h2>No. 5</h2>
+        <p>ブロック　05</p>
+      </div>
+      <div>
+        <h2>No. 6</h2>
+        <p>ブロック　06</p>
+        <p>ここはブロック番号6です。/p>
+      </div>
+      <div>
+        <h2>No. 7</h2>
+        <p>ブロック　07</p>
+      </div>
+
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jquery.wrangle.js"></script>
+    <script src="js/sample.js"></script>
+  </head>
+  <body>
+    <h1>線を描くように選択する</h1>
+    <div data-wrangle id="gallery">
+      <a data-all class="button">全て選択</a>
+      <a data-clear class="button disabled">選択を解除</a>
+      <div data-selectarea>
+        <ul data-list>
+          <li><img class="photo" src="images/1.jpg" width="128" height="128"></li>
+          <li><img class="photo" src="images/2.jpg" width="128" height="128"></li>
+          <li><img class="photo" src="images/3.jpg" width="128" height="128"></li>
+          <li><img class="photo" src="images/4.jpg" width="128" height="128"></li>
+          <li><img class="photo" src="images/5.jpg" width="128" height="128"></li>
+        </ul>
+        <canvas data-canvas></canvas>
+      </div>
+    </div>
+  </body>
+</html>

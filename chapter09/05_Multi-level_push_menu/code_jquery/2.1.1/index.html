@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample</title>
+    <link rel="stylesheet" href="css/jquery.multilevelpushmenu.css">
+    <style>
+      #menu { position : absolute; top: 0px; left : 0px; }
+      #intro { position : absolute; top: 0px; left : 200px; }
+     </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jquery.multilevelpushmenu.min.js"></script>
+    <script src="js/sample.js"></script>
+  </head>
+  <body>
+    <div id="intro">
+      <h1>多階層ドロワーメニュー</h1>
+      <p>多階層のメニューを実現できます。</p>
+    </div>
+    <div id="menu">
+      <nav>
+        <h2><i class="fa"></i>今日のメニュー</h2>
+        <ul>
+          <li><a href="#"><i class="fa"></i>定食</a>
+            <h2><i class="fa"></i>本日の定食</h2>
+            <ul>
+              <li><a href="#"><i class="fa"></i>そば＆うどん</a>
+              <h2><i class="fa"></i>本日の麺類</h2>
+              <ul>
+                <li><a href="#">天ぷらそば</a></li>
+                <li><a href="#">きつねうどん</a></li>
+              </ul>
+              </li>
+              <li><a href="#"><i class="fa"></i>ラーメン</a>
+              <h2><i class="fa"></i>ラーメン</h2>
+              <ul>
+                <li><a href="#">みそラーメン</a></li>
+                <li><a href="#">塩ラーメン</a></li>
+                <li><a href="#">醤油ラーメン</a></li>
+                <li><a href="#">担々麺</a></li>
+              </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="fa"></i>中華</a>
+            <h2><i class="fa"></i>今日の中華</h2>
+            <ul>
+              <li><a href="#">中華丼</a></li>
+              <li><a href="#">北京ダック</a></li>
+              <li><a href="#">四川料理</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>

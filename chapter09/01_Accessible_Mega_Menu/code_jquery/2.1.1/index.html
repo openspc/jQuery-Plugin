@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample</title>
+    <link rel="stylesheet" href="css/megamenu.css">
+    <style>
+    * { margin: 0; padding: 0; }
+    .nav-menu {
+      display: block;
+      position: relative;
+      list-style: none;
+      background-color: #ddd;
+    }
+    .nav-item { list-style: none; display: inline-block; }
+    .nav-item > a {
+      position: relative;
+      display: inline-block;
+      padding: 0.5em 1em;
+      margin: 0 0 -1px 0;
+      border: 1px solid transparent;
+      background-color: #333;
+      color: white;
+      text-decoration : none;
+    }
+    .nav-item > a.open { background-color: #888; }
+    .sub-nav {
+      position: absolute;
+      display: none;
+      top: 2.6em;
+      margin-top: -8px;
+      padding: 0.5em 1em;
+      border: 1px solid #999;
+      background-color: #ff9;
+    }
+    .sub-nav.open { display: block; }
+    .sub-nav ul {
+      display: inline-block;
+      vertical-align: top;
+      margin: 0 1em 0 0;
+    }
+    .sub-nav li { display: block; list-style-type: none; }     
+     </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jquery-accessibleMegaMenu.js"></script>
+    <script src="js/sample.js"></script>
+  </head>
+  <body>
+    <h1>巨大メニュー</h1>
+    <nav>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#">印刷</a>
+          <div class="sub-nav">
+            <ul class="sub-nav-group">
+              <li><a href="#p1">InDesign</a></li>
+              <li><a href="#p2">QuarkXpress</a></li>
+              <li><a href="#p3">Page Maker</a></li>
+            </ul>
+            <ul class="sub-nav-group">
+              <li><a href="#p4">Frame Maker</a></li>
+              <li><a href="#p5">EDIColor</a></li>
+            </ul>
+            <ul class="sub-nav-group">
+              <li><a href="#p6">Photoshop</a></li>
+              <li><a href="#p7">Illustrator</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="#">映像</a>
+          <div class="sub-nav">
+            <ul class="sub-nav-group">
+              <li><a href="#p8">FinalCut Pro X</a></li>
+              <li><a href="#p9">Premiere</a></li>
+            </ul>
+            <ul class="sub-nav-group">
+              <li><a href="#p10">AfterEffects</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

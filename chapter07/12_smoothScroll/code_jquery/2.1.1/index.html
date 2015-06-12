@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample</title>
+    <style>
+      .box { background-color:#ddd; height: 300px; }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jquery.smoothScroll.js"></script>
+    <script src="js/sample.js"></script>
+  </head>
+  <body>
+    <h1>指定位置までスクロールさせる</h1>
+    <ul id="top">
+      <li><a href="#p1">最初のブロックへ</a></li>
+      <li><a href="#p2">2番目のブロックへ</a></li>
+      <li><a href="#p3">3番目のブロックへ</a></li>
+      <li><a href="#p4">4番目のブロックへ</a></li>
+    </ul>
+    <p id="p1" class="box">【1】ここは最初のブロックです。</p>
+    <p id="p2" class="box">【2】ここは2番目のブロックです。</p>
+    <p id="p3" class="box">【3】ここは3番目のブロックです。<a href="#top">Topへ</a></p>
+    <p id="p4" class="box">【4】ここは4番目のブロックです。<a href="#top">Topへ</a></p>
+  </body>
+</html>

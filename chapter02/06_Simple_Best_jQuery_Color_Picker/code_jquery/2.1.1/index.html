@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample</title>
+    <style>
+      .icolor td {
+        width: 15px;
+        height: 15px;
+        border: solid 1px #000000;
+        cursor:pointer;
+      }
+      .icolor table{
+        background-color: #FFFFFF;
+        border: solid 1px #ccc;
+      }
+      .icolor .icolor_tbx {
+        width:170px;
+        border-top:1px solid #999;
+        border-left:1px solid #ccc;
+        border-right:1px solid #ccc;
+        border-bottom:1px solid #ccc;
+      }
+      #result {
+        width: 256px;
+        height: 64px;
+        border:1px solid black;
+        font-size: 0.75em;
+      }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jquery.icolor.min.js"></script>
+    <script src="js/sample.js"></script>
+  </head>
+  <body>
+    <h1>カラーピッカーで色を選択する</h1>
+    <div id="iColor"></div>
+    <div id="result">カラーピッカーで色を選択すると選択した背景色が設定されます</div>
+  </body>
+</html>

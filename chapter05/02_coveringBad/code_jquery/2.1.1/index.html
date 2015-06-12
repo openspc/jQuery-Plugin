@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample</title>
+    <link rel="stylesheet" href="css/coveringBad.css">
+    <style>
+      .covered {
+        width  : 384px;
+        height : 216px;
+        background-image: url("images/before.jpg");
+      }
+      .covered .changeable {
+        background-image: url("images/after.jpg");
+      }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/coveringBad.js"></script>
+    <script src="js/sample.js"></script>
+  </head>
+  <body>
+    <h1>2枚の画像を比較表示</h1>
+      <div class="covered">
+        <div class="handle"></div>
+        <div class="changeable"></div>
+      </div>
+  </body>
+</html>

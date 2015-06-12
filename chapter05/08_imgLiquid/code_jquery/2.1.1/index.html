@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample</title>
+    <style>
+      #imgLiquid1, #imgLiquid2, #imgLiquid3 { position: absolute; top : 80px; }
+      #imgLiquid1 { border: 1px solid black; width:80px; height:150px; left: 10px; }
+      #imgLiquid2 { border: 1px solid black; width:80px; height:150px; left: 100px; }
+      #imgLiquid3 { border: 1px solid black; width:400px; height:200px; left: 190px; }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/imgLiquid-min.js"></script>
+    <script src="js/sample.js"></script>
+  </head>
+  <body>
+    <h1>コンテナサイズに合わせて表示</h1>
+    <div id="imgLiquid1" class="imgLiquid" data-imgLiquid-fill="false">
+      <img src="images/1.jpg" width="384" height="216">
+    </div>
+    <div id="imgLiquid2" class="imgLiquid" data-imgLiquid-fill="true">
+      <img src="images/1.jpg" width="384" height="216">
+    </div>
+    <div id="imgLiquid3" class="imgLiquid" data-imgLiquid-fill="false">
+      <img src="images/1.jpg" width="384" height="216">
+    </div>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample</title>
+    <link rel="stylesheet" type="text/css" href="css/farbtastic.css">
+    <style>
+      #result {
+        width: 256px;
+        height: 64px;
+        border:1px solid black;
+        font-size: 0.75em;
+      }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/farbtastic.js"></script>
+    <script src="js/sample.js"></script>
+  </head>
+  <body>
+    <h1>色相環カラーピッカー</h1>
+    <form id="bg">
+      <input type="text" id="color" value="#f00">
+      <input type="button" value="カラー設定" id="setColor">
+    </form>
+    <div id="colorpicker"></div>
+    <div id="result">カラーピッカーで色を選択すると選択した背景色が設定されます</div>
+  </body>
+</html>

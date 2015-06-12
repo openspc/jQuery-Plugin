@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample</title>
+    <style>
+      h1 { font-size: 18px; }
+      p { height : 80px; }
+      .menubar {
+        position: absolute;
+        top: 100px;
+        height: 30px;
+        z-index: 1000;
+        width: 100%;
+        background: #eeeeff;
+      }
+      .sectionNo1, .sectionNo2, .sectionNo3 {
+        border: 8px solid white;
+        height: 500px;
+        background-color: #ccc;
+      }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jquery.smint.js"></script>
+    <script src="js/sample.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1>メニューを最上部に固定</h1>
+      <p>スクロールしてメニューが上にいった場合、最上部に固定されます</p>
+    </div>
+      <div class="menubar" >
+        <a href="#sectionNo1">jQueryとは？</a>｜
+        <a href="#sectionNo2">ダウンロード方法</a>｜
+        <a href="#sectionNo3">プラグインについて</a>｜
+    </div>
+    <div class=" sectionNo1">
+      <h1>jQueryとは？</h1>
+    </div>
+    <div class="section sectionNo2">
+      <h1>ダウンロード方法</h1>
+    </div>
+    <div class="section sectionNo3">
+      <h1>プラグインについて</h1>
+    </div>  
+  </body>
+</html>

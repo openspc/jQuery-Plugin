@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample</title>
+    <style>
+      .anchorific { position: fixed; margin-left: -40px; }
+      .anchorific ul { list-style-type: none; }
+      .anchorific li ul { list-style-type: none; display: none; background-color: #fff; }
+      .anchorific ul li a {
+        font-size: 9pt;
+        display: block;
+        text-decoration: none; border-bottom:1px solid gray;
+      }
+      .anchorific li ul { display: none; }
+      .anchorific li.active > a { background-color: #fcc; }
+      .anchorific li.active > ul { display: block; }
+      #content { margin-left: 300px; }
+      p { width: 480px; height: 200px; background-color: #eee; }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="js/anchorific.min.js"></script>
+    <script src="js/sample.js"></script>
+  </head>
+  <body>
+    <nav class="anchorific"></nav>
+    <div id="content">
+      <h1>ヘッダーをナビゲーション化</h1>
+        <h2>jQueryとは</h2>
+          <p>説明...</p>
+          <h3>$()を駆使せよ</h3>
+            <p>説明...</p>
+          <h3>プラグインを駆使せよ</h3>
+            <p>説明...</p>
+            <h4>プラグインを作る</h4>
+              <p>説明...</p>
+        <h2>jQuery UIとは</h2>
+          <p>説明...</p>
+          <h3>UIの重要さ</h3>
+            <p>説明...</p>
+          <h3>用意されている部品</h3>
+            <p>説明...</p>
+            <h4>スライダーを使う</h4>
+              <p>説明...</p>
+        <h2>jQuery Mobileとは</h2>
+          <p>説明...</p>
+          <h3>スマートフォンの台頭</h3>
+            <p>説明...</p>
+            <h4>iPhoneとAndroidの違い</h4>
+              <p>説明...</p>
+            <h4>違いを吸収する</h4>
+              <p>説明...</p>
+    </div>
+  </body>
+</html>

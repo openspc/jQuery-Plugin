@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample</title>
+    <link href="css/formplate.css" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/modernizr-custom-v2.7.1.js"></script>
+    <script src="js/formplate.min.js"></script>
+    <script src="js/sample.js"></script>
+  </head>
+  <body>
+    <h1>フォームUIを統一</h1>
+    <form>
+      <div class="formplate">
+        <textarea>見た目を合わせます</textarea>
+        <input type="checkbox" name="cb1" value="cb1" checked>
+        <label for="cb1">Windows</label>
+        <input type="checkbox" name="cb2" value="cb2">
+        <label for="cb2">Macintosh</label>
+        <input type="checkbox" name="cb3" value="cb3">
+        <label for="cb3">UNIX (Linux/FreeBSD)</label>
+      </div>
+      <div class="formplate">
+        <select>
+          <option value="1">10年以上前から使用している</option>
+          <option value="2">3年前から使用している</option>
+          <option value="3">最近使い始めた</option>
+        </select>
+      </div>
+    </form>
+    <div id="result"></div>
+  </body>
+</html>
